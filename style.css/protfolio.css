@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* nav related styles starts here*/
 nav {
     display: flex;
@@ -44,18 +45,26 @@ nav a {
     color: white;
     font-size: 20px;
     font-weight: 700;
+
 }
+
 /* nav related styles ends here */
 /* header related styles starts here */
-.header{
-    background-color:#FFF8F3;;
+.header {
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 100px;
+
+.banner {
+    padding: 30px 30px 0px 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.second-btn{
+
+.second-btn {
     border: 1px solid #FD6E0A;
     background-color: white;
     border-radius: 5px;
@@ -63,9 +72,62 @@ nav a {
     padding: 15px 30px;
     font-size: 20px;
     font-weight: 700;
+    margin-left: 30px;
 
 }
-.banner .banner-pic{
+
+.banner .banner-pic {
     width: 584px;
-height: 676px;
+    height: 676px;
+}
+
+.banner-greeting {
+    color: var(--dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    color: var(--dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-des {
+    display: flex;
+
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.banner-container {
+    width: 585px;
+}
+
+/* main section starts here */
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top: 130px;
+}
+
+.section-title {
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-dis {
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
