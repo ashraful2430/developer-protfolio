@@ -11,21 +11,13 @@ nav {
 nav>ul {
     display: flex;
     align-items: center;
+
 }
 
 nav li {
     list-style: none;
     margin-right: 50px;
-}
 
-.nav-title {
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
-}
-
-.text-primary {
-    color: #FD6E0A;
 }
 
 nav a {
@@ -33,12 +25,22 @@ nav a {
     color: #474747;
 }
 
-.prime-btn {
+.nav-title {
+    color: #FD6E0A;
+}
+
+.title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.btn-prime {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0px;
-    font-size: 20px;
+    padding: 15px 30px;
     color: white;
+    font-size: 20px;
     font-weight: 700;
-    padding: 15px 35px;
 }
