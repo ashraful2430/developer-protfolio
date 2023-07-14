@@ -259,6 +259,12 @@ footer{
         flex-direction: column;
         padding: 10px;
     }
+    nav > ul{
+        gap: 10px;
+    }
+    .btn-prime{
+        margin-bottom: 15px;
+    }
    .footer-colom{
     width: 100%;
    }
