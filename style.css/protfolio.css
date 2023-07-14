@@ -239,10 +239,39 @@ footer{
 }
 
 @media screen and (max-width: 576px) {
-    .skill-container {
-        flex-direction: column;
+    .header{
+        background-image: none;
+    }
+
+    .skill-container, .resume-container, .about-info-container, nav, .banner, nav > ul{
+        flex-direction: column; 
+    } 
+    .banner{
+        padding: 20px;
     }
     #first{
         padding: 20px;
     }
+    .banner .banner-pic{
+        width: 100%;
+    }
+    footer, .about{
+        flex-direction: column;
+        padding: 10px;
+    }
+   .footer-colom{
+    width: 100%;
+   }
+   .contact input[type="text"], input[type="email"], textarea{
+    width: 80%;
+   }
 }   
+
+@media screen and (min-width: 577px) and (max-width: 960px) {
+    .skill-container, .resume-container {
+        flex-direction: column ;
+    }
+    footer{
+        padding: 30px;
+    }
+}
