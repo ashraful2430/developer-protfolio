@@ -237,3 +237,12 @@ footer{
     
     width: 100%;
 }
+
+@media screen and (max-width: 576px) {
+    .skill-container {
+        flex-direction: column;
+    }
+    #first{
+        padding: 20px;
+    }
+}   
